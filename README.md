@@ -1,13 +1,20 @@
 # AppManifest - A Git Based - Enterprise Architecture Management
 
-The goal of this project is to develop a easy to create Markdown Based Record Template for documenting components and their dependencies. Similar to Infrastrcture as Code.
+The goal of this project is to develop a easy to create Markdown Based Record Template for documenting components and their dependencies. Similar to Infrastructure as Code.
 
-The record can then be either kept next to the different applications or exported from for example Kubernets or similar into the resulting target markdown.
+The record can then be either kept next to the different applications or exported from for example Kubernetes or similar into the resulting target markdown.
 
 As part of this effort we will develop
 - a microservice which will parse and build the data domain representing the documentation
 - a web application, which will help to explore the existing documentation
 - an extension to the web application to edit the app manifests.
+
+The Records so far:
+- [Software System](./docs/SoftwareSystemRecord.md)
+- [Container](./docs/ContainerRecord.md)
+- [Component](./docs/ComponentRecord.md)
+- [Person](./docs/PersonRecord.md)
+
 
 # Research & Inspiration
 
@@ -15,11 +22,11 @@ As part of this effort we will develop
 
 NodeJS - marked
 
-## Similar Idea but Using a Properiatry Documentation Format
+## Similar Idea but Using a proprietary Documentation Format
 
 <https://structurizr.com/dsl?example=big-bank-plc>
 
-## C4 Model for visualising software architecture
+## C4 Model for visualizing software architecture
 
 <https://c4model.com/>
 
